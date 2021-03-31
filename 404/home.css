@@ -1,0 +1,23 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-image: url("pictures/background.png");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+    background-color: #be242f;
+}
+
+.navbar{
+    width: 100%;
+    height: 300px;
+    background-color: #E40513;
+    border-bottom: honeydew solid 3px;
+    position: fixed;
+    z-index: 10;
+}
+.home{
+    height: 1600px;
+    width: 100%;
+}
