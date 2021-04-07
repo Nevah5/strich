@@ -6,6 +6,11 @@
     font-family: berlin-sans;
     src: url("fonts/berlin-sans.ttf");
 }
+
+
+/*
+    480 or less (phone landscape & smaller)
+*/
 .navbar #logo{
     font-size: 30px;
     color: honeydew;
@@ -111,4 +116,119 @@
     color: honeydew;
 }.footer #space{
     padding-right: 40px;
+}
+
+
+@media only screen and (min-width: 1200px) {
+    .navbar #logo{
+        font-size: 1.3rem;
+        color: honeydew;
+        font-family: 'strich', monospace, 'Courier New', Courier;
+        top: 65px;
+        left: 15px;
+        transform: translate(0,-50%);
+        position: absolute;
+    }
+    .navbar #menu{
+        font-size: 90px;
+        color: honeydew;
+        top: 65px;
+        right: 30px;
+        transform: translate(0,-50%);
+        position: absolute;
+    }
+
+    .home h1{
+        font-size: 6rem;
+        width: 70%;
+        position: absolute;
+        top: 45%;
+        left: 50%;
+        transform: translate(-50%,-50%);
+        font-family: berlin-sans, monospace, 'Courier New', Courier;
+        text-align: center;
+        text-shadow: 20px 20px 30px black;
+        color: honeydew;
+    }
+    .infos{
+        box-shadow: 0 -30px 150px #E40513;
+        height: 2000px;
+        width: 100%;
+        background-color: #E40513;
+    }
+    .home #info{
+        position: absolute;
+        height: 300px;
+        width: 60%;
+        transform: translate(-50%);
+        left: 50%;
+        bottom: 0;
+    }.home #info p{
+        text-shadow: 20px 20px 15px black;
+        color: honeydew;
+        font-size: 60px;
+        text-align: center;
+        font-family: berlin-sans, monospace, 'Courier New', Courier;
+        text-shadow: 20px 20px 15px black;
+        width: 100%;
+        margin: 0;
+        margin-top: 100px;
+    }.home #info i{
+        text-shadow: 20px 20px 15px black;
+        color: honeydew;
+        font-size: 120px;
+        text-align: center;
+        width: 100%;
+    }
+    .infos #title1{
+        padding-top: 60px;
+    }
+    .infos h2{
+        color: honeydew;
+        font-size: 2rem;
+        font-family: berlin-sans, monospace, 'Courier New', Courier;
+        text-shadow: 10px 10px 15px black;
+        width: 90%;
+        margin: 0;
+        padding-top: 30px;
+        padding-left: 20px;
+    }.infos p{
+        padding-left: 20px;
+        color: honeydew;
+        font-size: 1.5rem;
+        font-family: berlin-sans, monospace, 'Courier New', Courier;
+        width: 90%;
+    }.infos a{
+        text-decoration: none;
+        border: honeydew solid 7px;
+        border-radius: 12px;
+        padding: 15px 35px;
+        color: honeydew;
+        font-size: 1.5rem;
+        font-family: berlin-sans, monospace, 'Courier New', Courier;
+        width: 90%;
+    }.infos a:hover{
+        transition: 0.4s;
+        border-radius: 20px;
+    }.infos #poll{
+        margin-left: 15px;
+        margin-top: 20px;
+    }.infos img{
+        border: black solid 5px;
+        margin-left: 20px;
+        margin-top: 40px;
+        height: auto;
+        width: 400px;
+    }
+
+    .footer{
+        border-top: white solid 4px;
+    }
+    .footer i{
+        font-size: 3rem;
+        text-align: center;
+        color: honeydew;
+    }.footer #space{
+        padding-right: 40px;
+    }
 }
